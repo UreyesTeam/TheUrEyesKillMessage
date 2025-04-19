@@ -1,0 +1,68 @@
+#重载相关信息
+reload:
+  success: "&eTheUrEyesServer &f&l>>> &a配置已成功重载！"
+  no_permission: "&eTheUrEyesServer &f&l>>> &c你没有权限执行此命令！"
+  error: "&eTheUrEyesServer &f&l>>> &c重载失败！请检查控制台日志"
+
+# 死亡消息格式（支持颜色代码）
+death-format: "&4[死亡讯息] &c玩家 {player} &4被世界的眼睛吞噬了！因为：&e{reason}"
+
+# 未知原因相关
+unknown: "未知原因"
+unknown_with_cause: "未知原因 ({cause})"
+
+# 死亡原因列表
+reasons:
+  fall: "高空坠落"
+  fire: "火焰烧伤"
+  lava: "掉入熔岩"
+  drowning: "溺水"
+  explosion: "爆炸"
+  void: "坠入虚空"
+  suffocation: "窒息死亡"
+  starvation: "饥饿过度"
+  poison: "中毒身亡"
+  wither: "凋零效果"
+  lightning: "雷击"
+  magic: "魔法伤害"
+  contact: "仙人掌刺伤"
+  hot_floor: "岩浆块灼烧"
+  dryout: "脱水死亡"
+  freeze: "冰冻伤害"
+  sonic_boom: "监守者音波"
+
+# 攻击相关描述
+attacks:
+  melee: "近战攻击"
+  player: "被玩家 {attacker} 击杀"
+  mob: "被 {attacker} 攻击"
+  projectile: "远程攻击"
+  player_projectile: "被玩家 {attacker} 用 {projectile} 射杀"
+  mob_projectile: "被 {attacker} 用 {projectile} 攻击"
+
+# 实体名称映射
+entities:
+  ZOMBIE: "僵尸"
+  SKELETON: "骷髅"
+  CREEPER: "苦力怕"
+  SPIDER: "蜘蛛"
+  ENDERMAN: "末影人"
+  WITCH: "女巫"
+  BLAZE: "烈焰人"
+  GUARDIAN: "守卫者"
+  ENDER_DRAGON: "末影龙"
+  WITHER_SKELETON: "凋零骷髅"
+  GHAST: "恶魂"
+  PIGLIN: "猪灵"
+  HOGLIN: "疣猪兽"
+  WARDEN: "监守者"
+
+# 弹射物类型
+projectiles:
+  ARROW: "箭"
+  SNOWBALL: "雪球"
+  FIREBALL: "火球"
+  DRAGON_FIREBALL: "龙息"
+  TRIDENT: "三叉戟"
+  SHULKER_BULLET: "潜影贝导弹"
+  EGG: "鸡蛋"

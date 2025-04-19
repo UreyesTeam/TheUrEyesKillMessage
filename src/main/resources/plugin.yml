@@ -1,0 +1,13 @@
+name: TheUrEyesKillMessage
+version: 1.0-SNAPSHOT
+main: cn.ureyes.plugin.Main
+api-version: '1.21'
+authors: [AmazingEyes]
+commands:
+  killmessagereload:
+    description: KL_重载插件配置
+    usage: /killmessagereload
+permissions:
+  killmessage.reload:
+    description: 允许重载插件配置
+    default: op
